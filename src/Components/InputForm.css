@@ -1,5 +1,7 @@
 input{
-	border: none
+	border: none;
+	margin:15px;
+	width: 150%;
 }
 
 input:focus{
@@ -8,4 +10,28 @@ input:focus{
 
 label{
 	display: none;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+
+.form-container{
+	flex:1 1 50%;
+	display: flex;
+	flex-direction: column;	
+	justify-content:  center;
+	align-items: center;
+}
+
+h1{
+	margin-bottom: 40px;
+	color: white;
+}
+
+img{
+	width: 50%;
+	margin-bottom: 20%;
 }
